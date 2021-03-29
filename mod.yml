@@ -1,0 +1,19 @@
+assets:
+- method: binarc
+  name: ard/tt01.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: newgame-program
+    type: AreaDataScript
+- method: binarc
+  name: msn/HB17_MS405.bar
+  source:
+  - method: copy
+    name: hb17
+    source: ms_d.bdx
+    type: bdx
+description: Darkness
+originalAuthor: Thundrio
+title: Great Maw Testing
